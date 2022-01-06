@@ -1,0 +1,65 @@
+span {
+  font-weight: 700;
+  font-size: 16px;
+}
+i {
+  padding-right: 10px;
+  font-size: 16px;
+}
+button {
+  border-radius: 20px;
+  outline: none;
+  border: 1px solid #000;
+  background: transparent;
+  cursor: pointer;
+  height: 30px;
+  padding: 0 20px 0 20px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  height: 100vh;
+  background: url("./imgs/bg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.weather {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.temp {
+  width: 105%;
+  display: flex;
+  font-size: 18px;
+  align-items: center;
+  justify-content: space-between;
+}
+i {
+  margin-bottom: 15px;
+}
+.wind {
+  width: 100%;
+  display: flex;
+  font-size: 18px;
+  align-items: center;
+  justify-content: center;
+}
+.ant-row {
+  width: 100%;
+}
+.ant-select {
+  width: 70%;
+}
+.sunrise-temp {
+  width: 100%;
+}
+.ant-col {
+  text-align: center;
+}
